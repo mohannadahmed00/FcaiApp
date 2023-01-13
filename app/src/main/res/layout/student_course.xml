@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_back_student_course"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_background_white_post"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_name_student_course"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:layout_gravity="center_vertical"
+        android:padding="5dp"
+        android:text="computejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjr"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_practical_student_course"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2
+"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="0"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_mid_student_course"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="0"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_final_student_course"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="0"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_grade_student_course"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=""
+        android:textSize="18dp" />
+
+
+</LinearLayout>

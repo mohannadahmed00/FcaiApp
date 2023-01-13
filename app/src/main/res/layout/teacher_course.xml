@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_back_teacher_course"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_background_white_post"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_name_teacher_course"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="6"
+        android:padding="5dp"
+        android:text="computejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjr"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/tv_practical_teacher_course"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:hint="M"
+        android:inputType="numberDecimal"
+        android:padding="5dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/tv_mid_teacher_course"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:hint="P"
+        android:inputType="numberDecimal"
+        android:padding="5dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/tv_final_teacher_course"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:hint="F"
+        android:inputType="numberDecimal"
+        android:padding="5dp"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

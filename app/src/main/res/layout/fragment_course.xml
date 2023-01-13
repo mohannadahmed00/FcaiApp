@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/s_course_fragment_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/colorPrimaryDark" />
+
+    <ListView
+        android:id="@+id/lv_course_fragment_course"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:listSelector="#00FFFFFF"
+        android:padding="5dp" />
+    <Button
+        android:id="@+id/btn_activity_course"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+</LinearLayout>
